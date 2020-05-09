@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/addItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/big_padding"
+        android:text="@string/add_item_title_text" />
+
+    <EditText
+        android:id="@+id/itemNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/min_height"
+        android:fontFamily="sans-serf-light"
+        android:hint="@string/item_name_edit_text_hint"
+        android:inputType="textAutoComplete"
+        android:layout_margin="@dimen/big_padding"
+        android:textSize="18sp"
+        android:autofillHints="@string/item_name_edit_text_hint" />
+
+    <EditText
+        android:id="@+id/itemPriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/big_padding"
+        android:minHeight="@dimen/min_height"
+        android:inputType="numberDecimal"
+        android:fontFamily="sans-serf-light"
+        android:hint="@string/price_edit_text_hint"
+        android:textSize="18sp"
+        android:autofillHints="@string/price_edit_text_hint" />
+
+    <EditText
+        android:id="@+id/itemQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/big_padding"
+        android:minHeight="@dimen/min_height"
+        android:inputType="number"
+        android:fontFamily="sans-serf-light"
+        android:hint="@string/item_quantity_edit_text_hint"
+        android:textSize="18sp"
+        android:autofillHints="@string/item_quantity_edit_text_hint" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/button_save"
+        android:layout_margin="@dimen/big_padding"
+        android:textColor="@color/buttonLabel" />
+
+</LinearLayout>

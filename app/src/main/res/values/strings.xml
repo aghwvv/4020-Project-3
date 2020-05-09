@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_word">List Name…</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">List not saved because its name is empty.</string>
+    <string name="add_word">Add list</string>
+    <string name="fragment_title_text">Create New List</string>
+    <string name="new_list_button_text">New List</string>
+    <string name="add_item_button_text">Add Item</string>
+    <string name="add_item_title_text">Add New Item</string>
+    <string name="item_name_edit_text_hint">Item Name</string>
+    <string name="price_edit_text_hint">Price</string>
+    <string name="item_quantity_edit_text_hint">Quantity</string>
+    <string name="new_shopping_list_option">New Shopping List</string>
+    <string name="add_item_menu_title">Add Item</string>
+    <string name="item_name_default_text">Item Name</string>
+    <string name="default_price_text">$3.14</string>
+    <string name="list_menu_content_description">Drop Down Menu</string>
+    <string name="item_quantity_text">0</string>
+    <string name="vertical_ellipsis">⋮</string>
+</resources>
